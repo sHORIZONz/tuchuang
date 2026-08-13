@@ -1,0 +1,7 @@
+Class,Target,FileCount,BaselineAlarms,OptimizedAlarms,BaselineAlarmRate,OptimizedAlarmRate
+flush_false,negative,12,7,0,0.583333333333333,0
+toilet_sit,negative,48,0,0,0,0
+walking,negative,15,0,0,0,0
+crouch,ignore,48,0,0,0,0
+floor_sit,ignore,48,5,5,0.104166666666667,0.104166666666667
+lying,positive,48,27,27,0.5625,0.5625
