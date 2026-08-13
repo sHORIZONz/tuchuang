@@ -127,7 +127,55 @@ flush_like_count  / low_evidence_count <= 0.25
 | 11 | 否 | 否 | — | — | — |
 | 12 | 否 | 否 | — | — | — |
 
-12 张逐文件冲水时序图均已由 MATLAB 生成；当前文件被本机终端保护系统封装为 `TSD-Header`，GitHub 无法渲染，因此公共版暂不上传这些受保护文件。通过公司授权的明文导出/外发流程取得标准 PNG 后，可原位补入本目录。
+以下为全部 12 个冲水文件的完整时序。每张图依次给出高度、水平/垂直形态、帧级判据、快速主路径占比和 300 帧补充路径占比。
+
+### 冲水时序 01
+
+![冲水时序 01](https://raw.githubusercontent.com/sHORIZONz/tuchuang/imag/img/sy302-fall-flush-20260813/images/all_flush_timelines/flush_01_timeline.png)
+
+### 冲水时序 02
+
+![冲水时序 02](https://raw.githubusercontent.com/sHORIZONz/tuchuang/imag/img/sy302-fall-flush-20260813/images/all_flush_timelines/flush_02_timeline.png)
+
+### 冲水时序 03
+
+![冲水时序 03](https://raw.githubusercontent.com/sHORIZONz/tuchuang/imag/img/sy302-fall-flush-20260813/images/all_flush_timelines/flush_03_timeline.png)
+
+### 冲水时序 04
+
+![冲水时序 04](https://raw.githubusercontent.com/sHORIZONz/tuchuang/imag/img/sy302-fall-flush-20260813/images/all_flush_timelines/flush_04_timeline.png)
+
+### 冲水时序 05
+
+![冲水时序 05](https://raw.githubusercontent.com/sHORIZONz/tuchuang/imag/img/sy302-fall-flush-20260813/images/all_flush_timelines/flush_05_timeline.png)
+
+### 冲水时序 06
+
+![冲水时序 06](https://raw.githubusercontent.com/sHORIZONz/tuchuang/imag/img/sy302-fall-flush-20260813/images/all_flush_timelines/flush_06_timeline.png)
+
+### 冲水时序 07
+
+![冲水时序 07](https://raw.githubusercontent.com/sHORIZONz/tuchuang/imag/img/sy302-fall-flush-20260813/images/all_flush_timelines/flush_07_timeline.png)
+
+### 冲水时序 08
+
+![冲水时序 08](https://raw.githubusercontent.com/sHORIZONz/tuchuang/imag/img/sy302-fall-flush-20260813/images/all_flush_timelines/flush_08_timeline.png)
+
+### 冲水时序 09
+
+![冲水时序 09](https://raw.githubusercontent.com/sHORIZONz/tuchuang/imag/img/sy302-fall-flush-20260813/images/all_flush_timelines/flush_09_timeline.png)
+
+### 冲水时序 10
+
+![冲水时序 10](https://raw.githubusercontent.com/sHORIZONz/tuchuang/imag/img/sy302-fall-flush-20260813/images/all_flush_timelines/flush_10_timeline.png)
+
+### 冲水时序 11
+
+![冲水时序 11](https://raw.githubusercontent.com/sHORIZONz/tuchuang/imag/img/sy302-fall-flush-20260813/images/all_flush_timelines/flush_11_timeline.png)
+
+### 冲水时序 12
+
+![冲水时序 12](https://raw.githubusercontent.com/sHORIZONz/tuchuang/imag/img/sy302-fall-flush-20260813/images/all_flush_timelines/flush_12_timeline.png)
 
 ## 8. 代表性跌倒时序选择
 
@@ -142,7 +190,31 @@ flush_like_count  / low_evidence_count <= 0.25
 | 05 | YQ | 直接躺 | 25.5 | 25.5 | 0.699 | 0 |
 | 06 | YQ | 走后躺 | 27.8 | 27.8 | 0.729 | 0 |
 
-这 6 个代表性跌倒在优化前后报警时刻完全一致，且报警窗口中的冲水簇占比均为 0，说明新增门控没有拦截这些已检出的真实躺地样本。对应 6 张时序图也已生成，但与逐文件冲水图相同，当前处于终端保护封装状态，须经授权明文导出后再发布。
+这 6 个代表性跌倒在优化前后报警时刻完全一致，且报警窗口中的冲水簇占比均为 0，说明新增门控没有拦截这些已检出的真实躺地样本。
+
+### 跌倒时序 01：HT 直接躺
+
+![HT 直接躺](https://raw.githubusercontent.com/sHORIZONz/tuchuang/imag/img/sy302-fall-flush-20260813/images/representative_fall_timelines/fall_01_HT_direct_timeline.png)
+
+### 跌倒时序 02：HT 走后躺
+
+![HT 走后躺](https://raw.githubusercontent.com/sHORIZONz/tuchuang/imag/img/sy302-fall-flush-20260813/images/representative_fall_timelines/fall_02_HT_walk_timeline.png)
+
+### 跌倒时序 03：TF 直接躺
+
+![TF 直接躺](https://raw.githubusercontent.com/sHORIZONz/tuchuang/imag/img/sy302-fall-flush-20260813/images/representative_fall_timelines/fall_03_TF_direct_timeline.png)
+
+### 跌倒时序 04：TF 走后躺
+
+![TF 走后躺](https://raw.githubusercontent.com/sHORIZONz/tuchuang/imag/img/sy302-fall-flush-20260813/images/representative_fall_timelines/fall_04_TF_walk_timeline.png)
+
+### 跌倒时序 05：YQ 直接躺
+
+![YQ 直接躺](https://raw.githubusercontent.com/sHORIZONz/tuchuang/imag/img/sy302-fall-flush-20260813/images/representative_fall_timelines/fall_05_YQ_direct_timeline.png)
+
+### 跌倒时序 06：YQ 走后躺
+
+![YQ 走后躺](https://raw.githubusercontent.com/sHORIZONz/tuchuang/imag/img/sy302-fall-flush-20260813/images/representative_fall_timelines/fall_06_YQ_walk_timeline.png)
 
 ## 9. 风险与后续验证
 
